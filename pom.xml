@@ -139,12 +139,6 @@
 				<groupId>org.sonarsource.scanner.maven</groupId>
       			<artifactId>sonar-maven-plugin</artifactId>
       			<version>3.10.0.2594</version>
-				<configuration>
-					<scanIntervalSeconds>10</scanIntervalSeconds>
-					<webApp>
-						<contextPath>/maven-web-application</contextPath>
-					</webApp>
-				</configuration>
 			</plugin>
 
 			<plugin>
