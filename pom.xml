@@ -96,15 +96,15 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://54.211.48.26:8081/repository/tesla-releases/</url>
+	      <id>nexus-releases</id>
+	      <name>Nexus Repository Repository</name>
+	      <url>http://10.2.0.11:8081/repository/maven-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.211.48.26:8081/repository/tesla-snapshots/</url>
+	      <id>nexus-snapshots</id>
+	      <name>Nexus Snapshot Repository </name>
+	      <url>http://10.2.0.11:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
